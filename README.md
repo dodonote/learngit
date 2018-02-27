@@ -45,3 +45,23 @@ git status 查看
 删除分支：git branch -d <name> 
 
 查看远程分支：git branch -a
+
+## vim使用笔记 ##
+
+键盘移动 (Move)
+
+一切都从键盘的移动
+
+k -> 上 up
+
+j -> 下 down
+
+h -> 左 left
+
+l -> 右 right
+
+z -> 重画屏幕，当前光标变成屏幕的第一行 (redraw current line at top of window)
+
+CTRL-f -> 跳到下一页 (page down)
+
+CTRL-b -> 跳到上一页 (page up)

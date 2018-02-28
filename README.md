@@ -1,10 +1,16 @@
 # `git学习笔记` #
 
-1.git checkout -- aa.txt 恢复本地删除的文件
+1.git checkout -- aa.txt 恢复本地删除的文件/把文件在工作区的修改全部撤销
 
-2.git checkout master
+2.git checkout master 切换分支
 
 3.git merge testing 合并分支
+
+4.git init 初始化
+
+5.git rm file 把文件从版本库中删除、
+  需要 git commit -m file 提交
+  如果删错了用 git checkout -- file 恢复
 
 
 ## 建立分支 ##
@@ -15,7 +21,7 @@ git remote -v 查看git远程库地址
 
 git 删除 git rm debug.log git commit -m "rm de=bug.log" git push orgin master / git push
 
-$ git reset HEAD readme.txt //撤销修改
+$ git reset HEAD readme.txt //撤销修改/把暂存区的修改全部撤销
 
 vi 取消操作 esc u 粘贴 esc p 删除 esc d 退出 esc :wq
 
